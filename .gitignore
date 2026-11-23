@@ -1,0 +1,52 @@
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.mpeg
+*.mpg
+*.m4v
+*.webm
+
+# Archivos de análisis y resultados
+*.csv
+*.log
+logs/*
+!logs/.gitkeep
+
+# Grabaciones
+recordings/input/*
+!recordings/input/.gitkeep
+
+recordings/processed/*
+!recordings/processed/.gitkeep
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos de VS Code específicos del usuario
+.vscode/*
+!.vscode/extensions.json
